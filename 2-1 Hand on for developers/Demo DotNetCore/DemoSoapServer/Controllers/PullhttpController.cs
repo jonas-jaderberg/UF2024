@@ -14,6 +14,7 @@ using DemoSoapServer;
 namespace DemoSoapServer.Controllers
 {
     [ApiController]
+    [Route("")]
     [Route("[controller]")]
     public class PullhttpController : ControllerBase
     {
