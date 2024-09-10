@@ -3,8 +3,8 @@
 {
 	"name": "C# (.NET)",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:1.1.9-8.0-bookworm",
-  
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1.1.9-6.0-bookworm",
+  	"postCreateCommand": "dotnet tool install --global dotnet-svcutil",
 	"customizations": {
   		"vscode": {
     		"extensions": [
@@ -13,7 +13,7 @@
 				"ms-dotnettools.csdevkit"
     		]
   		}
-	},
+	}
 
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -29,7 +29,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "dotnet restore",
-	"postCreateCommand": "dotnet tool install --global dotnet-svcutil"
+	
 
 	// Configure tool-specific properties.
 	// "customizations": {},

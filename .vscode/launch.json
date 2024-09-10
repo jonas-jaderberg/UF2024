@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/2-1 Hand on for developers/Demo DotNetCore/DemoSoapServer/bin/Debug/net8.0/DemoSoapServer.dll",
+            "program": "${workspaceFolder}/2-1 Hand on for developers/Demo DotNetCore/DemoSoapServer/bin/Debug/net6.0/DemoSoapServer.dll",
             "args": [],
             "cwd": "${workspaceFolder}/2-1 Hand on for developers/Demo DotNetCore/DemoSoapServer",
             "stopAtEntry": false,
