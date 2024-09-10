@@ -1,0 +1,2 @@
+Install svcutil
+dotnet tool install --global dotnet-svcutil
