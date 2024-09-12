@@ -4,13 +4,14 @@
 	"name": "C# (.NET)",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/dotnet:1.1.9-6.0-bookworm",
-  	"postCreateCommand": "dotnet tool install --global dotnet-svcutil",
+  	"postCreateCommand": "dotnet tool install --global dotnet-svcutil && apt-get update && apt-get install -y python3 python3-pip",
 	"customizations": {
   		"vscode": {
     		"extensions": [
 				"ms-dotnettools.vscode-dotnet-runtime",
       			"ms-dotnettools.csharp",
-				"ms-dotnettools.csdevkit"
+				"ms-dotnettools.csdevkit",
+				"ms-python.python"
     		]
   		}
 	}
