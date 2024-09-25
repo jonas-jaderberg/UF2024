@@ -4,4 +4,5 @@ or
 /Pullhttp
 
 WS
+/SituationService gives WSDL
 

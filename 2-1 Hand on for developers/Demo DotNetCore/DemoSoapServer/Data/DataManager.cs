@@ -14,7 +14,18 @@ namespace DemoSoapServer.Data
     
     public MessageContainer GetData()
     {
-            MessageContainer data = null;
+            MessageContainer messageContainer = null;
+            messageContainer = new MessageContainer();
+            messageContainer.profileName = "SituationPublication Profile";
+            messageContainer.exchangeInformation = new ExchangeInformation();
+            messageContainer.exchangeInformation.exchangeContext = new ExchangeContext();
+            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester = new Agent();
+            messageContainer.exchangeInformation.dynamicInformation = new DynamicInformation();
+            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier = new InternationalIdentifier();
+            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.nationalIdentifier = "DEMO";
+            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.country = "SE";
+            messageContainer.exchangeInformation.dynamicInformation.messageGenerationTimestamp = DateTime.UtcNow;             
+            
             // using (var httpClient = new HttpClient())
             // {
             //     //Get data from IRCA, The Icelandic Road and Coastal Administration
@@ -31,7 +42,7 @@ namespace DemoSoapServer.Data
             //     }
             // }
 
-            return data;
+            return messageContainer;
 
     }
 

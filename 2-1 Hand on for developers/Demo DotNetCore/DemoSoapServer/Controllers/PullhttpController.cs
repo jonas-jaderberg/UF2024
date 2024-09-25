@@ -18,6 +18,11 @@ namespace DemoSoapServer.Controllers
     [Route("[controller]")]
     public class PullhttpController : ControllerBase
     {
+        private readonly IDataManager _dataManager;
+        public PullhttpController(IDataManager dataManager)
+        {
+            _dataManager = dataManager;
+        }
 
         //Use HttpGet and return applicatiion/xml
         [HttpGet("")]
@@ -25,13 +30,11 @@ namespace DemoSoapServer.Controllers
         public async Task<ActionResult> PullPayload()
         {
 
-            DataManager dataManager = new DataManager();
-            MessageContainer msg = dataManager.GetData();
+          
+            MessageContainer msg = _dataManager.GetData();
             if (msg != null)
             {              
-                msg.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.nationalIdentifier = "DEMO";
-                msg.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.country = "SE";
-                msg.exchangeInformation.dynamicInformation.messageGenerationTimestamp = DateTime.UtcNow;             
+               
             }
             else
             {

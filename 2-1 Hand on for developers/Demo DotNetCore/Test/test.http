@@ -1,0 +1,22 @@
+@LOCALBASEURL = https://localhost:5001
+
+## Call local http GET server
+GET {{LOCALBASEURL}}
+User-Agent: rest-client
+Content-Type: application/xml
+
+###
+#Get WSDL file
+GET {{LOCALBASEURL}}/SituationService
+User-Agent: rest-client
+
+###
+#Call WS snapshotpull
+POST {{LOCALBASEURL}}/SituationService
+Content-Type: text/xml;charset=UTF-8
+SOAPAction: "http://datex2.eu/wsdl/snapshotPull/2020/pullData"
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body/>
+</soapenv:Envelope>
