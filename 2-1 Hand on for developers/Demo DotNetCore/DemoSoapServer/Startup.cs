@@ -34,6 +34,7 @@ namespace DemoSoapServer
 
             //Add/register SituationPublicationService to IOC container
             services.AddScoped<Models.snapshotPullInterface, SituationPublicationService>();
+            services.AddScoped<Data.IDataManager, Data.DataManager>();
 
             services.AddSoapCore();
             

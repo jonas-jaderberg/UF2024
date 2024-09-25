@@ -8,11 +8,16 @@ namespace DemoSoapServer.Controllers
 {
     public class SituationPublicationService : Models.snapshotPullInterface
     {
+        private readonly IDataManager _dataManager;
+        public SituationPublicationService(DataManager dataManager)
+        {
+            _dataManager = dataManager;
+        }
         public pullSnapshotDataResponse pullSnapshotData(pullSnapshotDataRequest request)
         {
-            DataManager dataManager = new DataManager();
+           
             pullSnapshotDataResponse response = null;
-            MessageContainer msg = dataManager.GetData();
+            MessageContainer msg =_dataManager.GetData();
             if(msg != null)
             {
                 response = new pullSnapshotDataResponse();
