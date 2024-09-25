@@ -19,13 +19,15 @@ ENV PATH="$DOTNET_ROOT:$PATH:/home/vscode/.dotnet/tools"
 # Ensure .NET binaries are executable and accessible
 RUN chmod -R a+rx /usr/share/dotnet
 
-# Install svcutil
+# Install svcutil as the vscode user
+USER vscode
 RUN dotnet tool install --global dotnet-svcutil
 
 # Add global tools path to PATH for all users
-RUN echo 'export PATH="$PATH:/home/vscode/.dotnet/tools"' >> /etc/profile
+RUN echo 'export PATH="$PATH:/home/vscode/.dotnet/tools"' >> /home/vscode/.bashrc
 
-# Install Python 3
+# Switch back to root user to install Python 3
+USER root
 RUN apt-get update \
     && apt-get install -y python3 python3-pip \
     && apt-get clean \
