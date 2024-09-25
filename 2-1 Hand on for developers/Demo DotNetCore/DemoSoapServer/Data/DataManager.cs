@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 
 namespace DemoSoapServer.Data
 {
-    public class DataManager
+    public class DataManager : IDataManager
     {
     
     public MessageContainer GetData()
