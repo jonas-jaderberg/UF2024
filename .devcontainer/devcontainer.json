@@ -1,13 +1,25 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
 {
-	"name": "C# (.NET)",
+	"name": "C# (.NET), Java and Python",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:1.1.9-6.0-bookworm",
-  	"postCreateCommand": "dotnet tool install --global dotnet-svcutil && apt-get update && apt-get install -y python3 python3-pip",
+	"build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "none",
+            "installMaven": "true",
+            "installGradle": "false"
+        }
+    },
+    "postCreateCommand": "bash setup.sh && dotnet --version && python3 --version",
+	//"image": "mcr.microsoft.com/devcontainers/dotnet:1.1.9-6.0-bookworm",
+  	//"postCreateCommand": "dotnet tool install --global dotnet-svcutil && apt-get update && apt-get install -y python3 python3-pip",
 	"customizations": {
   		"vscode": {
     		"extensions": [
+				"vscjava.vscode-java-pack",
 				"ms-dotnettools.vscode-dotnet-runtime",
       			"ms-dotnettools.csharp",
 				"ms-dotnettools.csdevkit",
