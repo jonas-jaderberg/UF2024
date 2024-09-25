@@ -7,15 +7,15 @@ RUN wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh \
     && ./dotnet-install.sh --channel 6.0 --install-dir /usr/share/dotnet \
     && rm dotnet-install.sh
 
-#Install svcutil
-RUN dotnet tool install --global dotnet-svcutil
-
 # Add .NET to PATH for all users
 ENV DOTNET_ROOT="/usr/share/dotnet"
 ENV PATH="$DOTNET_ROOT:$PATH"
 
 # Ensure .NET binaries are executable and accessible
 RUN chmod -R a+rx /usr/share/dotnet
+
+#Install svcutil
+RUN dotnet tool install --global dotnet-svcutil
 
 # Install Python 3
 RUN apt-get update \
