@@ -1,4 +1,4 @@
-﻿using DemoSoapServer.Models;
+﻿using DatexII;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using DemoSoapServer.Data;
 namespace DemoSoapServer.Controllers
 {
-    public class SituationPublicationService : Models.snapshotPullInterface
+    public class SituationPublicationService : DatexII.snapshotPullInterface
     {
         private readonly IDataManager _dataManager;
-        public SituationPublicationService(DataManager dataManager)
+        public SituationPublicationService(IDataManager dataManager)
         {
             _dataManager = dataManager;
         }

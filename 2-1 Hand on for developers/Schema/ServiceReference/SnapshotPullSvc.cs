@@ -11,7 +11,7 @@ namespace DatexII
 {
     
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ServiceModel.ServiceContractAttribute(Namespace="http://datex2.eu/wsdl/snapshotPull/2020", ConfigurationName="DatexII.snapshotPullInterface")]
     public interface snapshotPullInterface
     {
@@ -19,7 +19,6 @@ namespace DatexII
         // CODEGEN: Generating message contract since the operation pullSnapshotData is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://datex2.eu/wsdl/snapshotPull/2020/pullData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(OpenlrBaseReferencePoint))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(VersionedReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GlobalReference))]
         DatexII.pullSnapshotDataResponse pullSnapshotData(DatexII.pullSnapshotDataRequest request);
@@ -29,7 +28,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/messageContainer")]
     public partial class MessageContainer
@@ -175,7 +174,7 @@ namespace DatexII
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SituationPublication))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public abstract partial class PayloadPublication
@@ -348,7 +347,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class InternationalIdentifier
@@ -404,7 +403,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class _ExtensionType
@@ -428,7 +427,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class _ExchangeReturnEnum
@@ -468,7 +467,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public enum ExchangeReturnEnum
     {
@@ -481,7 +480,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class ReturnInformation
@@ -537,7 +536,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class MultilingualString
@@ -562,7 +561,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class MultilingualStringValue
@@ -602,7 +601,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class _ExchangeStatusEnum
@@ -642,7 +641,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public enum ExchangeStatusEnum
     {
@@ -655,7 +654,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class DynamicInformation
@@ -727,7 +726,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class Agent
@@ -767,7 +766,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class _ProtocolTypeEnum
@@ -807,7 +806,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public enum ProtocolTypeEnum
     {
@@ -820,7 +819,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class ExchangeContext
@@ -892,7 +891,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class _MessageTypeEnum
@@ -932,7 +931,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public enum MessageTypeEnum
     {
@@ -963,7 +962,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/exchangeInformation")]
     public partial class ExchangeInformation
@@ -1124,19 +1123,21 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _ObstructionTypeEnum
     {
         
-        private string _extendedValueField;
+        private _ObstructionTypeEnumExtensionType _extendedValueField;
+        
+        private bool _extendedValueFieldSpecified;
         
         private ObstructionTypeEnum valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
+        public _ObstructionTypeEnumExtensionType _extendedValue
         {
             get
             {
@@ -1145,6 +1146,20 @@ namespace DatexII
             set
             {
                 this._extendedValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool _extendedValueSpecified
+        {
+            get
+            {
+                return this._extendedValueFieldSpecified;
+            }
+            set
+            {
+                this._extendedValueFieldSpecified = value;
             }
         }
         
@@ -1164,7 +1179,23 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public enum _ObstructionTypeEnumExtensionType
+    {
+        
+        /// <remarks/>
+        buildingWork,
+        
+        /// <remarks/>
+        firefightersInOperation,
+        
+        /// <remarks/>
+        policeInOperation,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum ObstructionTypeEnum
     {
@@ -1186,7 +1217,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _EnvironmentalObstructionTypeEnum
@@ -1226,7 +1257,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum EnvironmentalObstructionTypeEnum
     {
@@ -1248,7 +1279,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _AnimalPresenceTypeEnum
@@ -1288,7 +1319,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum AnimalPresenceTypeEnum
     {
@@ -1301,15 +1332,15 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
-    public partial class _WeatherRelatedRoadConditionTypeEnum
+    public partial class _PublicEventTypeEnum
     {
         
         private string _extendedValueField;
         
-        private WeatherRelatedRoadConditionTypeEnum valueField;
+        private PublicEventTypeEnum valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -1327,7 +1358,7 @@ namespace DatexII
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public WeatherRelatedRoadConditionTypeEnum Value
+        public PublicEventTypeEnum Value
         {
             get
             {
@@ -1341,243 +1372,189 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
-    public enum WeatherRelatedRoadConditionTypeEnum
+    public enum PublicEventTypeEnum
     {
         
         /// <remarks/>
-        blackIce,
+        agriculturalShow,
         
         /// <remarks/>
-        ice,
+        airShow,
         
         /// <remarks/>
-        icyPatches,
+        artEvent,
         
         /// <remarks/>
-        looseSnow,
+        athleticsMeeting,
         
         /// <remarks/>
-        slippery,
+        commercialEvent,
         
         /// <remarks/>
-        slushOnRoad,
+        culturalEvent,
         
         /// <remarks/>
-        snow,
+        ballGame,
         
         /// <remarks/>
-        other,
+        baseballGame,
         
         /// <remarks/>
-        _extended,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class _NonWeatherRelatedRoadConditionTypeEnum
-    {
-        
-        private string _extendedValueField;
-        
-        private NonWeatherRelatedRoadConditionTypeEnum valueField;
+        basketballGame,
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
-        {
-            get
-            {
-                return this._extendedValueField;
-            }
-            set
-            {
-                this._extendedValueField = value;
-            }
-        }
+        beerFestival,
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public NonWeatherRelatedRoadConditionTypeEnum Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public enum NonWeatherRelatedRoadConditionTypeEnum
-    {
+        bicycleRace,
         
         /// <remarks/>
-        looseChippings,
+        boatRace,
         
         /// <remarks/>
-        roadSurfaceInPoorCondition,
+        boatShow,
         
         /// <remarks/>
-        slipperyRoad,
+        boxingTournament,
         
         /// <remarks/>
-        other,
+        bullFight,
         
         /// <remarks/>
-        _extended,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class _PoorEnvironmentTypeEnum
-    {
-        
-        private string _extendedValueField;
-        
-        private PoorEnvironmentTypeEnum valueField;
+        ceremonialEvent,
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
-        {
-            get
-            {
-                return this._extendedValueField;
-            }
-            set
-            {
-                this._extendedValueField = value;
-            }
-        }
+        concert,
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public PoorEnvironmentTypeEnum Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public enum PoorEnvironmentTypeEnum
-    {
+        cricketMatch,
         
         /// <remarks/>
-        badWeather,
+        exhibition,
         
         /// <remarks/>
-        blizzard,
+        fair,
         
         /// <remarks/>
-        blowingDust,
+        festival,
         
         /// <remarks/>
-        blowingSnow,
+        filmFestival,
         
         /// <remarks/>
-        fog,
+        filmTVMaking,
         
         /// <remarks/>
-        snowfall,
+        fireworkDisplay,
         
         /// <remarks/>
-        stormForceWinds,
+        flowerEvent,
         
         /// <remarks/>
-        strongWinds,
+        foodFestival,
         
         /// <remarks/>
-        _extended,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class _DrivingConditionTypeEnum
-    {
-        
-        private string _extendedValueField;
-        
-        private DrivingConditionTypeEnum valueField;
+        footballMatch,
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
-        {
-            get
-            {
-                return this._extendedValueField;
-            }
-            set
-            {
-                this._extendedValueField = value;
-            }
-        }
+        funfair,
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public DrivingConditionTypeEnum Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public enum DrivingConditionTypeEnum
-    {
+        gardeningOrFlowerShow,
         
         /// <remarks/>
-        impossible,
+        golfTournament,
         
         /// <remarks/>
-        hazardous,
+        hockeyGame,
         
         /// <remarks/>
-        normal,
+        horseRaceMeeting,
         
         /// <remarks/>
-        passableWithCare,
+        internationalSportsMeeting,
+        
+        /// <remarks/>
+        majorEvent,
+        
+        /// <remarks/>
+        marathon,
+        
+        /// <remarks/>
+        market,
+        
+        /// <remarks/>
+        match,
+        
+        /// <remarks/>
+        motorShow,
+        
+        /// <remarks/>
+        motorSportRaceMeeting,
+        
+        /// <remarks/>
+        openAirConcert,
+        
+        /// <remarks/>
+        parade,
+        
+        /// <remarks/>
+        procession,
+        
+        /// <remarks/>
+        raceMeeting,
+        
+        /// <remarks/>
+        rugbyMatch,
+        
+        /// <remarks/>
+        severalMajorEvents,
+        
+        /// <remarks/>
+        show,
+        
+        /// <remarks/>
+        showJumping,
+        
+        /// <remarks/>
+        soundAndLightShow,
+        
+        /// <remarks/>
+        sportsMeeting,
+        
+        /// <remarks/>
+        stateOccasion,
+        
+        /// <remarks/>
+        streetFestival,
+        
+        /// <remarks/>
+        tennisTournament,
+        
+        /// <remarks/>
+        theatricalEvent,
+        
+        /// <remarks/>
+        tournament,
+        
+        /// <remarks/>
+        tradeFair,
+        
+        /// <remarks/>
+        waterSportsMeeting,
+        
+        /// <remarks/>
+        wineFestival,
+        
+        /// <remarks/>
+        winterSportsMeeting,
         
         /// <remarks/>
         unknown,
         
         /// <remarks/>
-        veryHazardous,
-        
-        /// <remarks/>
-        winterConditions,
-        
-        /// <remarks/>
         other,
         
         /// <remarks/>
@@ -1585,15 +1562,15 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class _AccidentTypeEnum
+    public partial class _DisturbanceActivityTypeEnum
     {
         
         private string _extendedValueField;
         
-        private AccidentTypeEnum valueField;
+        private DisturbanceActivityTypeEnum valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -1611,7 +1588,7 @@ namespace DatexII
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public AccidentTypeEnum Value
+        public DisturbanceActivityTypeEnum Value
         {
             get
             {
@@ -1625,20 +1602,339 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public enum AccidentTypeEnum
+    public enum DisturbanceActivityTypeEnum
     {
         
         /// <remarks/>
-        accident,
+        airRaid,
+        
+        /// <remarks/>
+        altercationOfVehicleOccupants,
+        
+        /// <remarks/>
+        assault,
+        
+        /// <remarks/>
+        assetDestruction,
+        
+        /// <remarks/>
+        attack,
+        
+        /// <remarks/>
+        attackOnVehicle,
+        
+        /// <remarks/>
+        blockadeOrBarrier,
+        
+        /// <remarks/>
+        bombAlert,
+        
+        /// <remarks/>
+        crowd,
+        
+        /// <remarks/>
+        demonstration,
+        
+        /// <remarks/>
+        evacuation,
+        
+        /// <remarks/>
+        filterBlockade,
+        
+        /// <remarks/>
+        goSlowOperation,
+        
+        /// <remarks/>
+        gunfireOnRoadway,
+        
+        /// <remarks/>
+        illVehicleOccupants,
+        
+        /// <remarks/>
+        march,
+        
+        /// <remarks/>
+        peopleThrowingObjectsOnTheRoad,
+        
+        /// <remarks/>
+        publicDisturbance,
+        
+        /// <remarks/>
+        radioactiveLeakAlert,
+        
+        /// <remarks/>
+        riot,
+        
+        /// <remarks/>
+        sabotage,
+        
+        /// <remarks/>
+        securityAlert,
+        
+        /// <remarks/>
+        securityIncident,
+        
+        /// <remarks/>
+        sightseersObstructingAccess,
+        
+        /// <remarks/>
+        strike,
+        
+        /// <remarks/>
+        terroristIncident,
+        
+        /// <remarks/>
+        theft,
+        
+        /// <remarks/>
+        toxicCloudAlert,
+        
+        /// <remarks/>
+        unspecifiedAlert,
+        
+        /// <remarks/>
+        other,
         
         /// <remarks/>
         _extended,
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public partial class _AuthorityOperationTypeEnum
+    {
+        
+        private string _extendedValueField;
+        
+        private AuthorityOperationTypeEnum valueField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string _extendedValue
+        {
+            get
+            {
+                return this._extendedValueField;
+            }
+            set
+            {
+                this._extendedValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public AuthorityOperationTypeEnum Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public enum AuthorityOperationTypeEnum
+    {
+        
+        /// <remarks/>
+        accidentInvestigationWork,
+        
+        /// <remarks/>
+        bombSquadInAction,
+        
+        /// <remarks/>
+        civilEmergency,
+        
+        /// <remarks/>
+        customsOperation,
+        
+        /// <remarks/>
+        juridicalReconstruction,
+        
+        /// <remarks/>
+        policeCheckPoint,
+        
+        /// <remarks/>
+        policeInvestigation,
+        
+        /// <remarks/>
+        roadOperatorCheckPoint,
+        
+        /// <remarks/>
+        snowChainOnBoardOrSnowTyresMountedCheck,
+        
+        /// <remarks/>
+        snowChainOrSnowTyresMountedCheck,
+        
+        /// <remarks/>
+        survey,
+        
+        /// <remarks/>
+        transportOfVip,
+        
+        /// <remarks/>
+        undefinedAuthorityActivity,
+        
+        /// <remarks/>
+        vehicleInspectionCheckPoint,
+        
+        /// <remarks/>
+        vehicleWeighing,
+        
+        /// <remarks/>
+        weighInMotion,
+        
+        /// <remarks/>
+        other,
+        
+        /// <remarks/>
+        _extended,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public partial class _MobilityTypeEnum
+    {
+        
+        private string _extendedValueField;
+        
+        private MobilityTypeEnum valueField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string _extendedValue
+        {
+            get
+            {
+                return this._extendedValueField;
+            }
+            set
+            {
+                this._extendedValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public MobilityTypeEnum Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public enum MobilityTypeEnum
+    {
+        
+        /// <remarks/>
+        mobile,
+        
+        /// <remarks/>
+        stationary,
+        
+        /// <remarks/>
+        unknown,
+        
+        /// <remarks/>
+        _extended,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public partial class Mobility
+    {
+        
+        private _MobilityTypeEnum mobilityTypeField;
+        
+        private float speedField;
+        
+        private bool speedFieldSpecified;
+        
+        private _ExtensionType _mobilityExtensionField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public _MobilityTypeEnum mobilityType
+        {
+            get
+            {
+                return this.mobilityTypeField;
+            }
+            set
+            {
+                this.mobilityTypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public float speed
+        {
+            get
+            {
+                return this.speedField;
+            }
+            set
+            {
+                this.speedField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool speedSpecified
+        {
+            get
+            {
+                return this.speedFieldSpecified;
+            }
+            set
+            {
+                this.speedFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public _ExtensionType _mobilityExtension
+        {
+            get
+            {
+                return this._mobilityExtensionField;
+            }
+            set
+            {
+                this._mobilityExtensionField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _RoadMaintenanceTypeEnum
@@ -1678,7 +1974,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum RoadMaintenanceTypeEnum
     {
@@ -1697,19 +1993,21 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _RoadOrCarriagewayOrLaneManagementTypeEnum
     {
         
-        private string _extendedValueField;
+        private _RoadOrCarriagewayOrLaneManagementTypeEnumExtensionType _extendedValueField;
+        
+        private bool _extendedValueFieldSpecified;
         
         private RoadOrCarriagewayOrLaneManagementTypeEnum valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
+        public _RoadOrCarriagewayOrLaneManagementTypeEnumExtensionType _extendedValue
         {
             get
             {
@@ -1718,6 +2016,20 @@ namespace DatexII
             set
             {
                 this._extendedValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool _extendedValueSpecified
+        {
+            get
+            {
+                return this._extendedValueFieldSpecified;
+            }
+            set
+            {
+                this._extendedValueFieldSpecified = value;
             }
         }
         
@@ -1737,7 +2049,41 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public enum _RoadOrCarriagewayOrLaneManagementTypeEnumExtensionType
+    {
+        
+        /// <remarks/>
+        createOneDirectionWay,
+        
+        /// <remarks/>
+        createTwoDirectionWay,
+        
+        /// <remarks/>
+        laneInOperation,
+        
+        /// <remarks/>
+        laneMoved,
+        
+        /// <remarks/>
+        laneNotInOperation,
+        
+        /// <remarks/>
+        laneRestrictionInOperation,
+        
+        /// <remarks/>
+        parkingProhibitionInOperation,
+        
+        /// <remarks/>
+        reverseTrafficDirection,
+        
+        /// <remarks/>
+        waitingProhibitionInOperation,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum RoadOrCarriagewayOrLaneManagementTypeEnum
     {
@@ -1756,7 +2102,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class _WeightTypeEnum
@@ -1796,7 +2142,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public enum WeightTypeEnum
     {
@@ -1812,7 +2158,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class _ComparisonOperatorEnum
@@ -1852,7 +2198,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public enum ComparisonOperatorEnum
     {
@@ -1877,7 +2223,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class GrossWeightCharacteristic
@@ -1949,7 +2295,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class VehicleCharacteristics
@@ -1989,19 +2335,21 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _ComplianceOptionEnum
     {
         
-        private string _extendedValueField;
+        private _ComplianceOptionEnumExtensionType _extendedValueField;
+        
+        private bool _extendedValueFieldSpecified;
         
         private ComplianceOptionEnum valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
+        public _ComplianceOptionEnumExtensionType _extendedValue
         {
             get
             {
@@ -2010,6 +2358,20 @@ namespace DatexII
             set
             {
                 this._extendedValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool _extendedValueSpecified
+        {
+            get
+            {
+                return this._extendedValueFieldSpecified;
+            }
+            set
+            {
+                this._extendedValueFieldSpecified = value;
             }
         }
         
@@ -2029,7 +2391,20 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public enum _ComplianceOptionEnumExtensionType
+    {
+        
+        /// <remarks/>
+        information,
+        
+        /// <remarks/>
+        unknown,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum ComplianceOptionEnum
     {
@@ -2045,397 +2420,63 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class OpenlrOffsets
+    public partial class PointByCoordinates
     {
         
-        private string openlrPositiveOffsetField;
+        private string bearingField;
         
-        private string openlrNegativeOffsetField;
+        private PointCoordinates pointCoordinatesField;
         
-        private _ExtensionType _openlrOffsetsExtensionField;
+        private _ExtensionType _pointByCoordinatesExtensionField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="nonNegativeInteger", Order=0)]
-        public string openlrPositiveOffset
+        public string bearing
         {
             get
             {
-                return this.openlrPositiveOffsetField;
+                return this.bearingField;
             }
             set
             {
-                this.openlrPositiveOffsetField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="nonNegativeInteger", Order=1)]
-        public string openlrNegativeOffset
-        {
-            get
-            {
-                return this.openlrNegativeOffsetField;
-            }
-            set
-            {
-                this.openlrNegativeOffsetField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public _ExtensionType _openlrOffsetsExtension
-        {
-            get
-            {
-                return this._openlrOffsetsExtensionField;
-            }
-            set
-            {
-                this._openlrOffsetsExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class OpenlrPathAttributes
-    {
-        
-        private _OpenlrFunctionalRoadClassEnum openlrLowestFrcToNextLRPointField;
-        
-        private string openlrDistanceToNextLRPointField;
-        
-        private _ExtensionType _openlrPathAttributesExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _OpenlrFunctionalRoadClassEnum openlrLowestFrcToNextLRPoint
-        {
-            get
-            {
-                return this.openlrLowestFrcToNextLRPointField;
-            }
-            set
-            {
-                this.openlrLowestFrcToNextLRPointField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="nonNegativeInteger", Order=1)]
-        public string openlrDistanceToNextLRPoint
-        {
-            get
-            {
-                return this.openlrDistanceToNextLRPointField;
-            }
-            set
-            {
-                this.openlrDistanceToNextLRPointField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public _ExtensionType _openlrPathAttributesExtension
-        {
-            get
-            {
-                return this._openlrPathAttributesExtensionField;
-            }
-            set
-            {
-                this._openlrPathAttributesExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class _OpenlrFunctionalRoadClassEnum
-    {
-        
-        private string _extendedValueField;
-        
-        private OpenlrFunctionalRoadClassEnum valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
-        {
-            get
-            {
-                return this._extendedValueField;
-            }
-            set
-            {
-                this._extendedValueField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public OpenlrFunctionalRoadClassEnum Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public enum OpenlrFunctionalRoadClassEnum
-    {
-        
-        /// <remarks/>
-        frc0,
-        
-        /// <remarks/>
-        frc1,
-        
-        /// <remarks/>
-        frc2,
-        
-        /// <remarks/>
-        frc3,
-        
-        /// <remarks/>
-        frc4,
-        
-        /// <remarks/>
-        frc5,
-        
-        /// <remarks/>
-        frc6,
-        
-        /// <remarks/>
-        frc7,
-        
-        /// <remarks/>
-        _extended,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class _OpenlrFormOfWayEnum
-    {
-        
-        private string _extendedValueField;
-        
-        private OpenlrFormOfWayEnum valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
-        {
-            get
-            {
-                return this._extendedValueField;
-            }
-            set
-            {
-                this._extendedValueField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public OpenlrFormOfWayEnum Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public enum OpenlrFormOfWayEnum
-    {
-        
-        /// <remarks/>
-        undefined,
-        
-        /// <remarks/>
-        motorway,
-        
-        /// <remarks/>
-        multipleCarriageway,
-        
-        /// <remarks/>
-        singleCarriageway,
-        
-        /// <remarks/>
-        roundabout,
-        
-        /// <remarks/>
-        slipRoad,
-        
-        /// <remarks/>
-        trafficSquare,
-        
-        /// <remarks/>
-        other,
-        
-        /// <remarks/>
-        _extended,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class OpenlrLineAttributes
-    {
-        
-        private _OpenlrFunctionalRoadClassEnum openlrFunctionalRoadClassField;
-        
-        private _OpenlrFormOfWayEnum openlrFormOfWayField;
-        
-        private string openlrBearingField;
-        
-        private _ExtensionType _openlrLineAttributesExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _OpenlrFunctionalRoadClassEnum openlrFunctionalRoadClass
-        {
-            get
-            {
-                return this.openlrFunctionalRoadClassField;
-            }
-            set
-            {
-                this.openlrFunctionalRoadClassField = value;
+                this.bearingField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _OpenlrFormOfWayEnum openlrFormOfWay
+        public PointCoordinates pointCoordinates
         {
             get
             {
-                return this.openlrFormOfWayField;
+                return this.pointCoordinatesField;
             }
             set
             {
-                this.openlrFormOfWayField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="nonNegativeInteger", Order=2)]
-        public string openlrBearing
-        {
-            get
-            {
-                return this.openlrBearingField;
-            }
-            set
-            {
-                this.openlrBearingField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public _ExtensionType _openlrLineAttributesExtension
-        {
-            get
-            {
-                return this._openlrLineAttributesExtensionField;
-            }
-            set
-            {
-                this._openlrLineAttributesExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenlrLocationReferencePoint))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenlrLastLocationReferencePoint))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public abstract partial class OpenlrBaseReferencePoint
-    {
-        
-        private PointCoordinates openlrCoordinatesField;
-        
-        private OpenlrLineAttributes openlrLineAttributesField;
-        
-        private _ExtensionType _openlrBaseReferencePointExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public PointCoordinates openlrCoordinates
-        {
-            get
-            {
-                return this.openlrCoordinatesField;
-            }
-            set
-            {
-                this.openlrCoordinatesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public OpenlrLineAttributes openlrLineAttributes
-        {
-            get
-            {
-                return this.openlrLineAttributesField;
-            }
-            set
-            {
-                this.openlrLineAttributesField = value;
+                this.pointCoordinatesField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public _ExtensionType _openlrBaseReferencePointExtension
+        public _ExtensionType _pointByCoordinatesExtension
         {
             get
             {
-                return this._openlrBaseReferencePointExtensionField;
+                return this._pointByCoordinatesExtensionField;
             }
             set
             {
-                this._openlrBaseReferencePointExtensionField = value;
+                this._pointByCoordinatesExtensionField = value;
             }
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class PointCoordinates
@@ -2539,7 +2580,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class HeightCoordinate
@@ -2627,7 +2668,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class _HeightTypeEnum
@@ -2667,7 +2708,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public enum HeightTypeEnum
     {
@@ -2686,7 +2727,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class AltitudeConfidence
@@ -2742,7 +2783,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class _AltitudeAccuracyEnum
@@ -2782,7 +2823,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public enum AltitudeAccuracyEnum
     {
@@ -2834,7 +2875,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class _PositionConfidenceCodedErrorEnum
@@ -2874,7 +2915,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public enum PositionConfidenceCodedErrorEnum
     {
@@ -2890,7 +2931,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class PositionAccuracy
@@ -3010,7 +3051,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class PositionConfidenceEllipse
@@ -3178,447 +3219,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class OpenlrLocationReferencePoint : OpenlrBaseReferencePoint
-    {
-        
-        private OpenlrPathAttributes openlrPathAttributesField;
-        
-        private _ExtensionType _openlrLocationReferencePointExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public OpenlrPathAttributes openlrPathAttributes
-        {
-            get
-            {
-                return this.openlrPathAttributesField;
-            }
-            set
-            {
-                this.openlrPathAttributesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _ExtensionType _openlrLocationReferencePointExtension
-        {
-            get
-            {
-                return this._openlrLocationReferencePointExtensionField;
-            }
-            set
-            {
-                this._openlrLocationReferencePointExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class OpenlrLastLocationReferencePoint : OpenlrBaseReferencePoint
-    {
-        
-        private _ExtensionType _openlrLastLocationReferencePointExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _ExtensionType _openlrLastLocationReferencePointExtension
-        {
-            get
-            {
-                return this._openlrLastLocationReferencePointExtensionField;
-            }
-            set
-            {
-                this._openlrLastLocationReferencePointExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class _OpenlrOrientationEnum
-    {
-        
-        private string _extendedValueField;
-        
-        private OpenlrOrientationEnum valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
-        {
-            get
-            {
-                return this._extendedValueField;
-            }
-            set
-            {
-                this._extendedValueField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public OpenlrOrientationEnum Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public enum OpenlrOrientationEnum
-    {
-        
-        /// <remarks/>
-        noOrientationOrUnknown,
-        
-        /// <remarks/>
-        withLineDirection,
-        
-        /// <remarks/>
-        againstLineDirection,
-        
-        /// <remarks/>
-        both,
-        
-        /// <remarks/>
-        _extended,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class _OpenlrSideOfRoadEnum
-    {
-        
-        private string _extendedValueField;
-        
-        private OpenlrSideOfRoadEnum valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
-        {
-            get
-            {
-                return this._extendedValueField;
-            }
-            set
-            {
-                this._extendedValueField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public OpenlrSideOfRoadEnum Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public enum OpenlrSideOfRoadEnum
-    {
-        
-        /// <remarks/>
-        onRoadOrUnknown,
-        
-        /// <remarks/>
-        right,
-        
-        /// <remarks/>
-        left,
-        
-        /// <remarks/>
-        both,
-        
-        /// <remarks/>
-        _extended,
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenlrGeoCoordinate))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenlrBasePointLocation))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenlrPointAlongLine))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public abstract partial class OpenlrPointLocationReference
-    {
-        
-        private _ExtensionType _openlrPointLocationReferenceExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _ExtensionType _openlrPointLocationReferenceExtension
-        {
-            get
-            {
-                return this._openlrPointLocationReferenceExtensionField;
-            }
-            set
-            {
-                this._openlrPointLocationReferenceExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class OpenlrGeoCoordinate : OpenlrPointLocationReference
-    {
-        
-        private PointCoordinates openlrCoordinatesField;
-        
-        private _ExtensionType _openlrGeoCoordinateExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public PointCoordinates openlrCoordinates
-        {
-            get
-            {
-                return this.openlrCoordinatesField;
-            }
-            set
-            {
-                this.openlrCoordinatesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _ExtensionType _openlrGeoCoordinateExtension
-        {
-            get
-            {
-                return this._openlrGeoCoordinateExtensionField;
-            }
-            set
-            {
-                this._openlrGeoCoordinateExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OpenlrPointAlongLine))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public abstract partial class OpenlrBasePointLocation : OpenlrPointLocationReference
-    {
-        
-        private _OpenlrSideOfRoadEnum openlrSideOfRoadField;
-        
-        private _OpenlrOrientationEnum openlrOrientationField;
-        
-        private OpenlrLocationReferencePoint openlrLocationReferencePointField;
-        
-        private OpenlrLastLocationReferencePoint openlrLastLocationReferencePointField;
-        
-        private OpenlrOffsets openlrOffsetsField;
-        
-        private _ExtensionType _openlrBasePointLocationExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _OpenlrSideOfRoadEnum openlrSideOfRoad
-        {
-            get
-            {
-                return this.openlrSideOfRoadField;
-            }
-            set
-            {
-                this.openlrSideOfRoadField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _OpenlrOrientationEnum openlrOrientation
-        {
-            get
-            {
-                return this.openlrOrientationField;
-            }
-            set
-            {
-                this.openlrOrientationField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public OpenlrLocationReferencePoint openlrLocationReferencePoint
-        {
-            get
-            {
-                return this.openlrLocationReferencePointField;
-            }
-            set
-            {
-                this.openlrLocationReferencePointField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public OpenlrLastLocationReferencePoint openlrLastLocationReferencePoint
-        {
-            get
-            {
-                return this.openlrLastLocationReferencePointField;
-            }
-            set
-            {
-                this.openlrLastLocationReferencePointField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public OpenlrOffsets openlrOffsets
-        {
-            get
-            {
-                return this.openlrOffsetsField;
-            }
-            set
-            {
-                this.openlrOffsetsField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public _ExtensionType _openlrBasePointLocationExtension
-        {
-            get
-            {
-                return this._openlrBasePointLocationExtensionField;
-            }
-            set
-            {
-                this._openlrBasePointLocationExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class OpenlrPointAlongLine : OpenlrBasePointLocation
-    {
-        
-        private _ExtensionType _openlrPointAlongLineExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _ExtensionType _openlrPointAlongLineExtension
-        {
-            get
-            {
-                return this._openlrPointAlongLineExtensionField;
-            }
-            set
-            {
-                this._openlrPointAlongLineExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
-    public partial class PointByCoordinates
-    {
-        
-        private string bearingField;
-        
-        private PointCoordinates pointCoordinatesField;
-        
-        private _ExtensionType _pointByCoordinatesExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="nonNegativeInteger", Order=0)]
-        public string bearing
-        {
-            get
-            {
-                return this.bearingField;
-            }
-            set
-            {
-                this.bearingField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public PointCoordinates pointCoordinates
-        {
-            get
-            {
-                return this.pointCoordinatesField;
-            }
-            set
-            {
-                this.pointCoordinatesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public _ExtensionType _pointByCoordinatesExtension
-        {
-            get
-            {
-                return this._pointByCoordinatesExtensionField;
-            }
-            set
-            {
-                this._pointByCoordinatesExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class RoadInformation
@@ -3674,7 +3275,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class SupplementaryPositionalDescription
@@ -3734,7 +3335,7 @@ namespace DatexII
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NetworkLocation))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(PointLocation))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocationByReference))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public abstract partial class LocationReference
@@ -3761,7 +3362,7 @@ namespace DatexII
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NetworkLocation))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(PointLocation))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocationByReference))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public abstract partial class Location : LocationReference
@@ -3802,7 +3403,7 @@ namespace DatexII
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(PointLocation))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public abstract partial class NetworkLocation : Location
@@ -3842,15 +3443,13 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class PointLocation : NetworkLocation
     {
         
         private PointByCoordinates pointByCoordinatesField;
-        
-        private OpenlrPointLocationReference openlrPointLocationReferenceField;
         
         private _ExtensionType _pointLocationExtensionField;
         
@@ -3870,20 +3469,6 @@ namespace DatexII
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public OpenlrPointLocationReference openlrPointLocationReference
-        {
-            get
-            {
-                return this.openlrPointLocationReferenceField;
-            }
-            set
-            {
-                this.openlrPointLocationReferenceField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
         public _ExtensionType _pointLocationExtension
         {
             get
@@ -3898,7 +3483,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class LocationByReference : Location
@@ -3938,7 +3523,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/locationReferencing")]
     public partial class _PredefinedLocationVersionedReference : VersionedReference
@@ -3967,9 +3552,9 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(_SituationRecordVersionedReference))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(_PredefinedLocationVersionedReference))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(_SituationRecordVersionedReference))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class VersionedReference
@@ -4009,7 +3594,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _SituationRecordVersionedReference : VersionedReference
@@ -4038,19 +3623,21 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _CommentTypeEnum
     {
         
-        private string _extendedValueField;
+        private _CommentTypeEnumExtensionType _extendedValueField;
+        
+        private bool _extendedValueFieldSpecified;
         
         private CommentTypeEnum valueField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string _extendedValue
+        public _CommentTypeEnumExtensionType _extendedValue
         {
             get
             {
@@ -4059,6 +3646,20 @@ namespace DatexII
             set
             {
                 this._extendedValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool _extendedValueSpecified
+        {
+            get
+            {
+                return this._extendedValueFieldSpecified;
+            }
+            set
+            {
+                this._extendedValueFieldSpecified = value;
             }
         }
         
@@ -4078,7 +3679,17 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
+    public enum _CommentTypeEnumExtensionType
+    {
+        
+        /// <remarks/>
+        operatorInformationExchange,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum CommentTypeEnum
     {
@@ -4109,7 +3720,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class Comment
@@ -4198,7 +3809,7 @@ namespace DatexII
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SituationRecordReference))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public abstract partial class GlobalReference
@@ -4222,7 +3833,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class SituationRecordReference : GlobalReference
@@ -4262,7 +3873,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class Cause
@@ -4302,7 +3913,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class OverallPeriod
@@ -4374,7 +3985,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class _ValidityStatusEnum
@@ -4414,7 +4025,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public enum ValidityStatusEnum
     {
@@ -4436,7 +4047,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class Validity
@@ -4492,7 +4103,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _SeverityEnum
@@ -4532,7 +4143,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum SeverityEnum
     {
@@ -4563,7 +4174,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class _ProbabilityOfOccurrenceEnum
@@ -4603,7 +4214,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public enum ProbabilityOfOccurrenceEnum
     {
@@ -4627,18 +4238,16 @@ namespace DatexII
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeneralObstruction))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnvironmentalObstruction))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalPresenceObstruction))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Conditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoadSurfaceConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(WeatherRelatedRoadConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(NonWeatherRelatedRoadConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PoorEnvironmentConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Accident))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Activity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PublicEvent))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DisturbanceActivity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AuthorityOperation))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(OperatorAction))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Roadworks))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MaintenanceWorks))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NetworkManagement))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoadOrCarriagewayOrLaneManagement))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public abstract partial class SituationRecord
@@ -4858,13 +4467,11 @@ namespace DatexII
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeneralObstruction))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnvironmentalObstruction))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalPresenceObstruction))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Conditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoadSurfaceConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(WeatherRelatedRoadConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(NonWeatherRelatedRoadConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PoorEnvironmentConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Accident))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Activity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PublicEvent))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DisturbanceActivity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AuthorityOperation))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public abstract partial class TrafficElement : SituationRecord
@@ -4891,7 +4498,7 @@ namespace DatexII
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeneralObstruction))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnvironmentalObstruction))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalPresenceObstruction))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public abstract partial class Obstruction : TrafficElement
@@ -4915,7 +4522,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class GeneralObstruction : Obstruction
@@ -4955,7 +4562,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class EnvironmentalObstruction : Obstruction
@@ -4995,7 +4602,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class AnimalPresenceObstruction : Obstruction
@@ -5035,231 +4642,180 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoadSurfaceConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(WeatherRelatedRoadConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(NonWeatherRelatedRoadConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PoorEnvironmentConditions))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PublicEvent))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DisturbanceActivity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AuthorityOperation))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class Conditions : TrafficElement
+    public abstract partial class Activity : TrafficElement
     {
         
-        private _DrivingConditionTypeEnum drivingConditionTypeField;
+        private Mobility mobilityOfActivityField;
         
-        private _ExtensionType _conditionsExtensionField;
+        private _ExtensionType _activityExtensionField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _DrivingConditionTypeEnum drivingConditionType
+        public Mobility mobilityOfActivity
         {
             get
             {
-                return this.drivingConditionTypeField;
+                return this.mobilityOfActivityField;
             }
             set
             {
-                this.drivingConditionTypeField = value;
+                this.mobilityOfActivityField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _ExtensionType _conditionsExtension
+        public _ExtensionType _activityExtension
         {
             get
             {
-                return this._conditionsExtensionField;
+                return this._activityExtensionField;
             }
             set
             {
-                this._conditionsExtensionField = value;
+                this._activityExtensionField = value;
             }
         }
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(WeatherRelatedRoadConditions))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(NonWeatherRelatedRoadConditions))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public abstract partial class RoadSurfaceConditions : Conditions
+    public partial class PublicEvent : Activity
     {
         
-        private _ExtensionType _roadSurfaceConditionsExtensionField;
+        private _PublicEventTypeEnum publicEventTypeField;
+        
+        private MultilingualString venueNameField;
+        
+        private _ExtensionType _publicEventExtensionField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public _ExtensionType _roadSurfaceConditionsExtension
+        public _PublicEventTypeEnum publicEventType
         {
             get
             {
-                return this._roadSurfaceConditionsExtensionField;
+                return this.publicEventTypeField;
             }
             set
             {
-                this._roadSurfaceConditionsExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class WeatherRelatedRoadConditions : RoadSurfaceConditions
-    {
-        
-        private _WeatherRelatedRoadConditionTypeEnum[] weatherRelatedRoadConditionTypeField;
-        
-        private _ExtensionType _weatherRelatedRoadConditionsExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("weatherRelatedRoadConditionType", Order=0)]
-        public _WeatherRelatedRoadConditionTypeEnum[] weatherRelatedRoadConditionType
-        {
-            get
-            {
-                return this.weatherRelatedRoadConditionTypeField;
-            }
-            set
-            {
-                this.weatherRelatedRoadConditionTypeField = value;
+                this.publicEventTypeField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _ExtensionType _weatherRelatedRoadConditionsExtension
+        public MultilingualString venueName
         {
             get
             {
-                return this._weatherRelatedRoadConditionsExtensionField;
+                return this.venueNameField;
             }
             set
             {
-                this._weatherRelatedRoadConditionsExtensionField = value;
+                this.venueNameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public _ExtensionType _publicEventExtension
+        {
+            get
+            {
+                return this._publicEventExtensionField;
+            }
+            set
+            {
+                this._publicEventExtensionField = value;
             }
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class NonWeatherRelatedRoadConditions : RoadSurfaceConditions
+    public partial class DisturbanceActivity : Activity
     {
         
-        private _NonWeatherRelatedRoadConditionTypeEnum[] nonWeatherRelatedRoadConditionTypeField;
+        private _DisturbanceActivityTypeEnum disturbanceActivityTypeField;
         
-        private _ExtensionType _nonWeatherRelatedRoadConditionsExtensionField;
+        private _ExtensionType _disturbanceActivityExtensionField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("nonWeatherRelatedRoadConditionType", Order=0)]
-        public _NonWeatherRelatedRoadConditionTypeEnum[] nonWeatherRelatedRoadConditionType
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public _DisturbanceActivityTypeEnum disturbanceActivityType
         {
             get
             {
-                return this.nonWeatherRelatedRoadConditionTypeField;
+                return this.disturbanceActivityTypeField;
             }
             set
             {
-                this.nonWeatherRelatedRoadConditionTypeField = value;
+                this.disturbanceActivityTypeField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _ExtensionType _nonWeatherRelatedRoadConditionsExtension
+        public _ExtensionType _disturbanceActivityExtension
         {
             get
             {
-                return this._nonWeatherRelatedRoadConditionsExtensionField;
+                return this._disturbanceActivityExtensionField;
             }
             set
             {
-                this._nonWeatherRelatedRoadConditionsExtensionField = value;
+                this._disturbanceActivityExtensionField = value;
             }
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class PoorEnvironmentConditions : Conditions
+    public partial class AuthorityOperation : Activity
     {
         
-        private _PoorEnvironmentTypeEnum[] poorEnvironmentTypeField;
+        private _AuthorityOperationTypeEnum authorityOperationTypeField;
         
-        private _ExtensionType _poorEnvironmentConditionsExtensionField;
+        private _ExtensionType _authorityOperationExtensionField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("poorEnvironmentType", Order=0)]
-        public _PoorEnvironmentTypeEnum[] poorEnvironmentType
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public _AuthorityOperationTypeEnum authorityOperationType
         {
             get
             {
-                return this.poorEnvironmentTypeField;
+                return this.authorityOperationTypeField;
             }
             set
             {
-                this.poorEnvironmentTypeField = value;
+                this.authorityOperationTypeField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _ExtensionType _poorEnvironmentConditionsExtension
+        public _ExtensionType _authorityOperationExtension
         {
             get
             {
-                return this._poorEnvironmentConditionsExtensionField;
+                return this._authorityOperationExtensionField;
             }
             set
             {
-                this._poorEnvironmentConditionsExtensionField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
-    public partial class Accident : TrafficElement
-    {
-        
-        private _AccidentTypeEnum[] accidentTypeField;
-        
-        private _ExtensionType _accidentExtensionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("accidentType", Order=0)]
-        public _AccidentTypeEnum[] accidentType
-        {
-            get
-            {
-                return this.accidentTypeField;
-            }
-            set
-            {
-                this.accidentTypeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public _ExtensionType _accidentExtension
-        {
-            get
-            {
-                return this._accidentExtensionField;
-            }
-            set
-            {
-                this._accidentExtensionField = value;
+                this._authorityOperationExtensionField = value;
             }
         }
     }
@@ -5269,7 +4825,7 @@ namespace DatexII
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MaintenanceWorks))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NetworkManagement))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoadOrCarriagewayOrLaneManagement))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public abstract partial class OperatorAction : SituationRecord
@@ -5294,7 +4850,7 @@ namespace DatexII
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MaintenanceWorks))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public abstract partial class Roadworks : OperatorAction
@@ -5318,7 +4874,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class MaintenanceWorks : Roadworks
@@ -5359,7 +4915,7 @@ namespace DatexII
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoadOrCarriagewayOrLaneManagement))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public abstract partial class NetworkManagement : OperatorAction
@@ -5415,7 +4971,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class RoadOrCarriagewayOrLaneManagement : NetworkManagement
@@ -5455,7 +5011,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class _InformationStatusEnum
@@ -5495,7 +5051,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public enum InformationStatusEnum
     {
@@ -5517,7 +5073,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/common")]
     public partial class HeaderInformation
@@ -5557,7 +5113,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class Situation
@@ -5629,7 +5185,7 @@ namespace DatexII
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://datex2.eu/schema/3/situation")]
     public partial class SituationPublication : PayloadPublication
@@ -5669,7 +5225,7 @@ namespace DatexII
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class pullSnapshotDataRequest
@@ -5681,7 +5237,7 @@ namespace DatexII
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class pullSnapshotDataResponse
@@ -5700,13 +5256,13 @@ namespace DatexII
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     public interface snapshotPullInterfaceChannel : DatexII.snapshotPullInterface, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     public partial class snapshotPullInterfaceClient : System.ServiceModel.ClientBase<DatexII.snapshotPullInterface>, DatexII.snapshotPullInterface
     {
         
@@ -5778,11 +5334,6 @@ namespace DatexII
         public virtual System.Threading.Tasks.Task OpenAsync()
         {
             return System.Threading.Tasks.Task.Factory.FromAsync(((System.ServiceModel.ICommunicationObject)(this)).BeginOpen(null, null), new System.Action<System.IAsyncResult>(((System.ServiceModel.ICommunicationObject)(this)).EndOpen));
-        }
-        
-        public virtual System.Threading.Tasks.Task CloseAsync()
-        {
-            return System.Threading.Tasks.Task.Factory.FromAsync(((System.ServiceModel.ICommunicationObject)(this)).BeginClose(null, null), new System.Action<System.IAsyncResult>(((System.ServiceModel.ICommunicationObject)(this)).EndClose));
         }
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)

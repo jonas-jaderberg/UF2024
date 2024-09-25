@@ -1,6 +1,6 @@
 {
   "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "options": {
     "inputs": [
       "../DATEXII_3_Common.xsd",
@@ -19,7 +19,7 @@
     "outputFile": "SnapshotPullSvc.cs",
     "serializerMode": "XmlSerializer",
     "sync": true,
-    "targetFramework": "net5.0",
+    "targetFramework": "net6.0",
     "typeReuseMode": "All"
   }
 }
