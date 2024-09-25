@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo 'Updating .bashrc'
-# Use a here document to append the alias to .bashrc
-cat << 'EOF' >> ~/.bashrc
+cat << \EOF >> ~/.bash_profile
+# Add .NET Core SDK tools
+export PATH="$PATH:/home/vscode/.dotnet/tools"
+EOF
 
