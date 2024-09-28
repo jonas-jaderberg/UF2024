@@ -1,0 +1,56 @@
+<con:messageContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:com="http://datex2.eu/schema/3/common" xmlns:d2="http://datex2.eu/schema/3/d2Payload" xmlns:con="http://datex2.eu/schema/3/messageContainer" xmlns:ex="http://datex2.eu/schema/3/exchangeInformation" xmlns:loc="http://datex2.eu/schema/3/locationReferencing" xmlns:roa="http://datex2.eu/schema/3/roadTrafficData" xmlns:sit="http://datex2.eu/schema/3/situation" xmlns:xs="http://www.w3.org/2001/XMLSchema" modelBaseVersion="3" xsi:schemaLocation="http://datex2.eu/schema/3/messageContainer DATEXII_3_MessageContainer.xsd">
+	<con:payload xsi:type="sit:SituationPublication" lang="en" modelBaseVersion="3">
+		<com:publicationTime>2024-09-28T07:29:00+02:00</com:publicationTime>
+		<com:publicationCreator>
+			<com:country>RO</com:country>
+			<com:nationalIdentifier>DEMO</com:nationalIdentifier>
+		</com:publicationCreator>
+		<sit:situation id="SIT_1">
+			<sit:headerInformation>
+				<com:informationStatus>technicalExercise</com:informationStatus>
+			</sit:headerInformation>
+			<sit:situationRecord xsi:type="sit:PublicEvent" id="1" version="1">
+				<sit:situationRecordCreationTime>2024-09-28T07:29:00+02:00</sit:situationRecordCreationTime>
+				<sit:situationRecordVersionTime>2024-09-28T07:29:00+02:00</sit:situationRecordVersionTime>
+				<sit:probabilityOfOccurrence>certain</sit:probabilityOfOccurrence>
+				<sit:validity>
+					<com:validityStatus>definedByValidityTimeSpec</com:validityStatus>
+					<com:validityTimeSpecification>
+						<com:overallStartTime>2024-10-09T09:30:00+02:00</com:overallStartTime>
+						<com:overallEndTime>2024-10-11T14:00:00+02:00</com:overallEndTime>
+					</com:validityTimeSpecification>
+				</sit:validity>
+				<sit:locationReference xsi:type="loc:PointLocation">
+					<loc:pointByCoordinates>
+						<loc:pointCoordinates>
+							<loc:latitude>44.425610625461786</loc:latitude>
+							<loc:longitude>26.07689369992371</loc:longitude>
+						</loc:pointCoordinates>
+					</loc:pointByCoordinates>
+				</sit:locationReference>
+				<sit:publicEventType>majorEvent</sit:publicEventType>
+				<sit:venueName>
+					<com:values>
+						<com:value lang="en">DATEX II User forum</com:value>
+					</com:values>
+				</sit:venueName>
+			</sit:situationRecord>
+		</sit:situation>
+	</con:payload>
+	<con:exchangeInformation modelBaseVersion="3">
+		<ex:exchangeContext>
+			<ex:codedExchangeProtocol>snapshotPull</ex:codedExchangeProtocol>
+			<ex:exchangeSpecificationVersion>2020</ex:exchangeSpecificationVersion>
+			<ex:supplierOrCisRequester>
+				<ex:internationalIdentifier>
+					<com:country>RO</com:country>
+					<com:nationalIdentifier>DEMO</com:nationalIdentifier>
+				</ex:internationalIdentifier>
+			</ex:supplierOrCisRequester>
+		</ex:exchangeContext>
+		<ex:dynamicInformation>
+			<ex:exchangeStatus>undefined</ex:exchangeStatus>
+			<ex:messageGenerationTimestamp>2024-09-28T07:29:00+02:00</ex:messageGenerationTimestamp>
+		</ex:dynamicInformation>
+	</con:exchangeInformation>
+</con:messageContainer>

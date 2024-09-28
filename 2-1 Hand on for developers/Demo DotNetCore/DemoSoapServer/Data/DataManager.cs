@@ -17,30 +17,49 @@ namespace DemoSoapServer.Data
             MessageContainer messageContainer = null;
             messageContainer = new MessageContainer();
             messageContainer.profileName = "SituationPublication Profile";
-            messageContainer.exchangeInformation = new ExchangeInformation();
-            messageContainer.exchangeInformation.exchangeContext = new ExchangeContext();
-            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester = new Agent();
-            messageContainer.exchangeInformation.dynamicInformation = new DynamicInformation();
-            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier = new InternationalIdentifier();
-            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.nationalIdentifier = "DEMO";
-            messageContainer.exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.country = "SE";
-            messageContainer.exchangeInformation.dynamicInformation.messageGenerationTimestamp = DateTime.UtcNow;             
+            ExchangeInformation exchangeInformation = new ExchangeInformation();
+            messageContainer.exchangeInformation = exchangeInformation;
+            exchangeInformation.exchangeContext = new ExchangeContext();
+            exchangeInformation.exchangeContext.supplierOrCisRequester = new Agent();
+            exchangeInformation.dynamicInformation = new DynamicInformation();
+            exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier = new InternationalIdentifier();
+            exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.nationalIdentifier = "DEMO";
+            exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.country = "RO";
+            exchangeInformation.dynamicInformation.messageGenerationTimestamp = DateTime.UtcNow;             
+            exchangeInformation.dynamicInformation.exchangeStatus = new _ExchangeStatusEnum();
+            exchangeInformation.dynamicInformation.exchangeStatus.Value = ExchangeStatusEnum.undefined;
             
-            // using (var httpClient = new HttpClient())
-            // {
-            //     //Get data from IRCA, The Icelandic Road and Coastal Administration
-            //     //Open DATEX II 3.1 Service, using Soap and http get
-            //     // This service includes point incidents using same exchange profile and payload profile as in this example
-            //     using (var response = httpClient.GetAsync("http://datex.vegagerdin.is/situationpublication3_1/SituationService/pullsnapshotdata").Result)
-            //     {
-            //         string apiResponse = response.Content.ReadAsStringAsync().Result;
+            messageContainer.payload = new SituationPublication[1];
+            SituationPublication situationPublication = new SituationPublication();
+            messageContainer.payload[0] = situationPublication;
 
-            //         XmlSerializer serializer = new XmlSerializer(typeof(MessageContainer));
-            //         StringReader reader = new StringReader(apiResponse);
-            //         data = (MessageContainer)serializer.Deserialize(reader);
+            situationPublication.lang = "en";
+            situationPublication.publicationTime = DateTime.Now;
+            situationPublication.publicationCreator = new InternationalIdentifier();
+            situationPublication.publicationCreator.country = "RO";
+            situationPublication.publicationCreator.nationalIdentifier = "DEMO";
 
-            //     }
-            // }
+            List<Situation> situations = new List<Situation>();
+            Situation situation = new Situation();
+            situation.id = "SIT 1";
+            situation.headerInformation = new HeaderInformation();
+            situation.headerInformation.informationStatus = new _InformationStatusEnum();
+            situation.headerInformation.informationStatus.Value = InformationStatusEnum.technicalExercise;
+            
+            List<SituationRecord> situationRecords = new List<SituationRecord>();
+
+            PublicEvent publicEvent = new PublicEvent();
+            publicEvent.id = "1";
+            publicEvent.version = "1";
+
+            
+            situationRecords.Add(publicEvent);
+            situation.situationRecord = situationRecords.ToArray();
+            
+            
+            situations.Add(situation);
+
+            situationPublication.situation = situations.ToArray();
 
             return messageContainer;
 
