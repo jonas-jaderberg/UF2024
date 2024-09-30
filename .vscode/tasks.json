@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/2-1 Hand on for developers/Demo DotNetCore/DemoSoapServer/DemoSoapServer.sln",
+                "${workspaceFolder}/Demo DotNetCore/DemoSoapServer/DemoSoapServer.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/2-1 Hand on for developers/Demo DotNetCore/DemoSoapServer/DemoSoapServer.sln",
+                "${workspaceFolder}/Demo DotNetCore/DemoSoapServer/DemoSoapServer.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/2-1 Hand on for developers/Demo DotNetCore/DemoSoapServer/DemoSoapServer.sln"
+                "${workspaceFolder}/Demo DotNetCore/DemoSoapServer/DemoSoapServer.sln"
             ],
             "problemMatcher": "$msCompile"
         }
