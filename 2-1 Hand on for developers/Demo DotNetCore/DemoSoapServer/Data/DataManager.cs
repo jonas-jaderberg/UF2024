@@ -25,6 +25,10 @@ namespace DemoSoapServer.Data
             exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier = new InternationalIdentifier();
             exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.nationalIdentifier = "DEMO";
             exchangeInformation.exchangeContext.supplierOrCisRequester.internationalIdentifier.country = "RO";
+            exchangeInformation.exchangeContext.codedExchangeProtocol = new _ProtocolTypeEnum();
+            exchangeInformation.exchangeContext.codedExchangeProtocol.Value = ProtocolTypeEnum.snapshotPull;
+            exchangeInformation.exchangeContext.exchangeSpecificationVersion = "2020";
+            
             exchangeInformation.dynamicInformation.messageGenerationTimestamp = DateTime.UtcNow;             
             exchangeInformation.dynamicInformation.exchangeStatus = new _ExchangeStatusEnum();
             exchangeInformation.dynamicInformation.exchangeStatus.Value = ExchangeStatusEnum.undefined;
